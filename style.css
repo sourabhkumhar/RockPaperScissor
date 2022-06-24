@@ -1,0 +1,46 @@
+body {
+    background-image: url(images/bg.jpg);
+    background-position: top;
+}
+
+.headImg {
+    width: 400px;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-shadow: 2px 2px 4px black;
+}
+
+.btn:hover {
+    color: white;
+}
+
+#computerBlock, #userBlock, #selectorBlock {
+    border: 3px solid white;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
+
+#computer, #user, #selector {
+    border: none;
+    color: white;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+    padding: 0%;
+}
+
+#reset {
+    border-radius: 5%;
+    width: 100%;
+}
+
+#win, #loose, #draw {
+    position: relative;
+    width: 150px;
+    bottom: 35%;
+    left: 40%;
+}
