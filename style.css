@@ -38,9 +38,28 @@ body {
     width: 100%;
 }
 
+#rotate {
+    display: none;
+    position: fixed;
+}
+
 #win, #loose, #draw {
     position: relative;
     width: 150px;
     bottom: 35%;
     left: 40%;
+}
+
+
+@media (orientation: portrait) {
+    div.container {
+        display: none;
+    }
+
+    #rotate {
+        display: block;
+        margin: auto;
+        top: 400px;
+    }
+
 }
